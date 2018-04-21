@@ -1,0 +1,25 @@
+{
+  "name": "fpsrecognition",
+  "version": "1.0.0",
+  "description": "Simple website to test your fps recognition skillz",
+  "main": "index.js",
+  "scripts": {
+    "run": "node server.js"
+  },
+  "keywords": [
+    "fps",
+    "media",
+    "video",
+    "test"
+  ],
+  "author": "LoveIsGrief",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^3.6.6",
+    "connect-livereload": "^0.6.0",
+    "livereload": "^0.7.0",
+    "morgan": "^1.9.0",
+    "opn": "^5.3.0",
+    "serve-static": "^1.13.2"
+  }
+}
