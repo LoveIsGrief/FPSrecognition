@@ -77,7 +77,7 @@ function load(index = 0) {
     // generate the panel contents and insert them
     $(".fps-overlay").innerText = fps;
     const $video = $("video");
-    $video.src = `/media/${fps}_fps.mp4`;
+    $video.src = `./media/${fps}_fps.mp4`;
     $video.play();
     updateGuesses();
 }
