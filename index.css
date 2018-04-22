@@ -50,6 +50,7 @@ body {
 }
 
 .panel .content .fps-overlay {
+    pointer-events: none;
     position: absolute;
     top: 0;
     right: 0;
@@ -68,17 +69,22 @@ body {
 .panel .content .video-container {
     position: relative;
     display: flex;
+    flex-grow: 1;
 }
 
+/*How to fit a video element in display: flex*/
+/*https://stackoverflow.com/a/34860817*/
 .panel .content video {
-    max-width: 100%;
-    max-height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .panel .content .guess-container {
     display: flex;
     justify-content: space-around;
-     flex-grow: 1;
     flex-shrink: 0;
     align-content: center;
     padding: 4px;
