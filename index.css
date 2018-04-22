@@ -64,6 +64,7 @@ body {
 
 .panel .content.resolved .fps-overlay {
     opacity: 0.6;
+    z-index: 10;
 }
 
 .panel .content .video-container {
